@@ -1,0 +1,47 @@
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg
+MANIFEST
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Development files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project specific ignores
+mcp_content.json
+mcp_summarizer.log
+summary_tmp.html
+uv.lock
+cache/
+summary.md
+summary.pdf
+summary.json
